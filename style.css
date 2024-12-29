@@ -14,13 +14,13 @@ body {
 
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     body {
         background-size: contain;
          
 
     }
-}
+} */
 
 .container { 
     width: 100%;
@@ -44,7 +44,7 @@ body {
     margin-bottom:20px ;
 }
 .todo-app h2 img {
-    width: 35px;
+    width: 4rem;
     margin-left: 10px;
 }
 .row{
@@ -55,7 +55,7 @@ body {
     padding-left: 10px;
 }
 input{
-    width: 400px;
+    width: 20rem;
     height: 45px;
     border-radius: 9px;
     background-color: rgb(250, 246, 249);
@@ -66,7 +66,7 @@ input{
     font-weight: 14px;
 }
 button{
-    width: 90px;
+    width: 6em;
     height:45px ;
     background-color: rgb(14, 14, 14); 
     color: rgb(247, 244, 244);
@@ -92,7 +92,7 @@ ul li::before{
     position: absolute;
     border-radius: 50%;
     height: 28px;
-    width: 29px;
+    width: 2rem;
     background-image: url(unchecked.png);
     background-size: cover;
     background-position: center;
